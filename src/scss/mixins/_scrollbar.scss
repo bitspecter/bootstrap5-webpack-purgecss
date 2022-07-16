@@ -1,0 +1,22 @@
+@mixin scrollbar($color: $secondary) {
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f2f2f2;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background: $color;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: $color;
+    }
+}

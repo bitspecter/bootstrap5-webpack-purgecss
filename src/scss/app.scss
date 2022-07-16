@@ -1,0 +1,6 @@
+// Import variables first to rewrite default Bootstrap variables
+@import './variables';
+
+@import '~bootstrap';
+
+@import './mixins/mixins';
